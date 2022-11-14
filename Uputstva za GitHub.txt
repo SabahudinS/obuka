@@ -1,0 +1,21 @@
+Kreiraj novu public/private repozitoriju. Na public će drugi vidjeti sve šta se radi.
+
+1. Kreiraj novi repozitorij (ime novog projekta/neko smislen o ime).
+2. Otvori Terminal
+3. Da povežemo ime i email sa github:
+	git config --global user.email "email za github račun"
+	git config --global user.name "korisničko ime za github račun"
+	Ovo uradimo jednom. Ponavljamo samo ako promijenimo kompjuter. 
+4. Da povežemo fajlove sa repozitorijem:
+	a) git init
+	b) git remote origin.....(kompletnu adresu repozitorija)
+	c) git status (označi crvenom bojom fajlove koje ne pratimo)
+	d) git add.  (da dodamo sve fajlove)
+	e) git status (da provjerimo jesu li svi zeleni, tj da li ih pratimo)
+	f) git commit -m "Poruka o onom šta radiš"
+	g) git push (ako da grešku,/git push --set-upstream origin main/ kopiramo tu grešku i enter)
+	h) refresh github
+5. Da dodamo nove izmjene u kod:
+	a) git add .
+	b) git commit -m "Šta smo dodali"
+	c) git push
