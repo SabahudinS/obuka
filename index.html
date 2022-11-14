@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML kurs osnove</title>
+  </head>
+  <body>
+    <!--Nazivi elemenata su okruženi uglastim zagradama.
+    Tag elementi obično dolaze u parovima (start i end tag).
+    Neki tagovi se sami zatvaraju (imaju samo start tag).
+    Primjeri:   <h1>Veliki naslov</h1>
+                <br/> (Novi red, tag se sam zatvara)
+                <br> (U redu je ako je HTML5)
+                <p>Paragraf</p>
+                itd...-->
+
+    Naslova ima šest default veličina, od h1 do h6.
+    <h1>Najveći naslov je 32 px. Obično je samo jedan h1 na stranici.</h1>
+    <h2>Frontend Simplified ovo je 24 px, za ostale podnaslove.</h2>
+    <h3>Sljedeći je na 18,72 px</h3>
+    <h4>Ovaj je veličine 16 px</h4>
+    <h5>Ovaj je još manji 13,28 px</h5>
+    <h6>I ovo je najmanji defaulni od 10,72 px</h6>
+    Veličinu teksta na stranici biramo prema potrebama.
+    <hr />
+    PARAGRAFI:
+    <p>
+      Default veličina texta u paragrafu je 16 px, a margine gore i dole su 16px
+      a lijevo i desno su 0px.
+    </p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita,
+      inventore! Hic optio, dignissimos iste eaque dolorem commodi eius fuga
+      repellendus accusantium veritatis? Explicabo, velit optio.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+      mollitia deleniti! At minus placeat debitis ut beatae repudiandae.
+    </p>
+    <hr />
+    BLOCK elementi - POČINJU u novom redu, i zauzimaju punu širinu elementa. Kao
+    što su na primjer paragrafi iznad. <br />
+    INLINE elementi - NE POČINJU u novom redu i zauzimaju samo potrebnu širinu.
+    Primjer, buttons. Button je inline element, i prikazuje se jedan do drugog.
+    <br />
+    <button>123</button>
+    <button>123</button>
+    <button>123</button>
+    <br />
+    Primjeri: <br />
+    Block elementi:
+    <div></div>
+    ,
+    <h1></h1>
+    ,
+    <p></p>
+    , <br />
+    Inline elementi: <button>Button</button>,
+    <span>Span tj. inline container element</span>,
+    <a href="">anchor tj link do nečeg</a>
+    <hr />
+    <button>564</button> <b>Bold element</b>
+    <div>
+      <b
+        >Pošto je div block element, sada će bold zauzimati cijelu čirinu
+        elementa i neće biti inline element kao u primjetu iznad kad stoji pored
+        button 564.
+      </b>
+    </div>
+    <hr />
+    Anchor tag ili link do neke adrese, npr. Da bi otvorili link u novom tabu,
+    koristimo target="_blank": <br />
+    <a href="https://discord.gg/frontend" target="_blank">Discord Server</a>
+    <br />
+    <!-- Zadatak: Napraviti nik na stranicu Dashboard, da se otvara u novom tabu-->
+    A sa ove strane napravimo link na Dashboard, i to da se otvori u novom tabu.
+    <a href="/dashboard.html" target:_blank>Na Dashboard</a>
+
+    <br />
+    <hr />
+    LISTE: Mogu biti Unorderd (sa bulletpoints) i Ordered (označeno brojevima).
+    Napravićemo primjer listi na strani Dashboard.
+
+    
+  </body>
+</html>

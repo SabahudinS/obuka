@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    Dashboard. Da povežemo ovu stranicu sa index html stranicom, samo pokrenemo
+    link, i u naziv linka stavimo: /index.html, a onda unesemo neku vrijednost.
+    Link će se otvoriti u istom prozoru. <br />
+    Hajde sada ovdje da objasnimo liste. LISTE: Mogu biti Unorderd (sa
+    bulletpoints, redoslijed im nije važan) i Ordered (označeno brojevima,
+    redoslijed jeste važan). Glavni div ćemo promijeniti u nav (navigacija).
+    Section tag odvaja dijelove po sekcijama. Napravićemo svije, za svaku listu
+    posebno.
+    <br />
+    U listu ćemo dodati kratki paragraf, i sliku. Da bi ubacili sliku, u src=""
+    moramo navesti gdje se tačno nalazi slika, inače neće biti prikazana. U
+    dijelu alt="" možemo upisati opis slike, u slučaju da uređaj na kome se
+    otvara stranica ne može prikazati sliku. U tag src, sliku možemo dodati
+    lokalno (kada se slika nalazi u stom folderu kao i html fajlu) u src=""
+    upisujemo ./naziv foldera/naziv fajla ako su oba u istom direktoriju. Ako se
+    slika nalazi u subfolderu oda upisujemo: ./ime foldera/ime subfoldera/naziv
+    fajla. Ako hoćemo da ubacimo iz drugog subfoldera u istom folder, ona pišemo
+    ../naziv foldera/naziv subfoldera/naziv fajla. Ili externo (direktno sa
+    interneta upisujemo url adresu.)
+    <br />
+    <hr />
+
+    <nav>
+      Logo
+      <a href="/index.html">Home</a>
+    </nav>
+    <main>
+      <section>
+        <h1>To do list</h1>
+        <p>Da ovo završim do kraja godine</p>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Sunset-at-Sea.jpg"
+          alt=""
+          width="400"
+        />
+        <img src="./assets/okean.jpg" alt="" width="400" />
+        <img src="../assets/dashboard/svemir.jpg" alt="" width="400" />
+        <img src="./planina.jpg" alt="" />
+        <ul>
+          <li>Naći posao od 100k+ $</li>
+          <li>Završiti kurs Frontend Simplified</li>
+          <li>Povezati se sa drugima na Discord serveru</li>
+        </ul>
+      </section>
+      <section>
+        <ol>
+          <h1>Kako naći posao od 100k+ $</h1>
+          <li>Finish Frontend Simplified</li>
+          <li>Učiti za intervju</li>
+          <li>Aplicirati za posao</li>
+        </ol>
+      </section>
+    </main>
+<hr>
+  FORMS: 
+
+
+
+
+
+  
+    <footer>Copyrights & Conditions, &copy Meha 2022</footer>
+  </body>
+</html>

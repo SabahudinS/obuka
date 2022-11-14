@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login formular</title>
+  </head>
+  <body>
+    Da kreiramo form, samo u html. Input tag je self-closing. U input type, ako
+    je text, primiće text, ako je email, može primiti samo email, password će
+    primiti lozinku i pokazat će se u tačkicama.
+    Ako upišemo required, podaci se moraju popuniti prije nego što
+    se formular može podnijeti. (Submit). Ako želimo da naglasimo 
+    neku riječ u formularu, možemo koristiti span tag, koji kasnije 
+    unutar css stila možemo označiti da bude boldirana, ili italic 
+    ili podvučena, druge boje, itd. 
+
+    <h1>Login</h1>
+    <form>
+    <div>
+      <label for="">Ime</label>
+      <input type="text" />
+    
+    </div>
+    <div>
+      <label for="">Email</label required>
+      <input type="email" />
+    
+    </div>
+    <div>
+      <label for="">Unesi <span>lozinku</span></label>
+      <input type="password" />
+    </div>
+    <div>
+        <label for="">Potvrdi lozinku</label>
+        <input type="password" />
+      </div>
+    <div>
+        <label for="">Dob</label>
+        <input type="number" />
+    </div>
+    <div>
+        <label for="">Datum</label>
+        <input type="date" />
+    </div>
+    <div>
+        <label for="">Mjesec</label>
+        <input type="month" />
+    </div>
+    <div>
+        <label for="">Vrijeme</label>
+        <input type="time" />
+    </div>
+    <div>
+        <textarea rows="10">Vaša poruka</textarea>
+    </div>
+
+    <button>Submit</button>
+    </form>
+  </body>
+</html>
